@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- The Rectangle Box in whiich the game will be contained -->
+
+    <header><h1>Rock Paper Scissors</h1></header>
+
+    <div class="full-container"> 
+
+        <div class="images-container">
+
+
+            <div class="div-for-rock">
+                <img src="rock.png" alt="" id="Rock" class="hover-img choice">
+            </div>
+
+
+            <div class="div-for-paper">
+             <img src="paper.png" alt="" id="Paper" class="hover-img choice">
+            </div>
+
+            <div class="div-for-scissor">
+                <img src="scissors.png" alt="" id="Scissor" class="hover-img choice">
+            </div>
+
+
+        </div>
+
+        <div class="message-box" id="message-box">
+            <p id="result">no</p>
+        </div>
+
+        <div class="scoreBoard">
+
+            <div class="participants">
+                <div class="div-for-player part ">
+                    <p id="player">Player</p>
+                </div>
+                <div class="div-for-computer part">
+                    <p id="computer">Computer</p>
+                </div>
+            </div>
+
+            <div class="participant-score">
+
+                <div class="div-for-player-score score" >
+                    <p id="playerScore">0</p>
+                </div>
+
+                <div class="div-for-computer-score score" >
+                    <p id="computerScore">0</p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="totalMatches">
+            <p id="total-matches-text">Total Matches:</p>
+            <p id="total-matches-score">0</p>
+        </div>
+
+        <div class="Reset-Button">
+            <button class="hover-reset reset" id="reset">Reset</button>
+        </div>
+
+    </div>
+
+    <script src="tic-tac-toe.js"></script>
+</body>
+
+</html>
